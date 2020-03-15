@@ -1,0 +1,10 @@
+{
+  "name": "procmon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "screenshot-desktop": "^1.11.0"
+  },
+  "types": "module"
+}
