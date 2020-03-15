@@ -1,3 +1,5 @@
 *.log
 node_modules/
 artifacts/
+.idea/
+.DS_Store/
