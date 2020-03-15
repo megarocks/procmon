@@ -1,18 +1,9 @@
-Adjust paths at `com.user.procmon.plist`
-
-Copy configuration:
 ```
-cp ./com.user.procmon.plist ~/Library/LaunchAgents/com.user.procmon.plist
+node install.js
 ```
-
-Adjust path at index.js
-
-Load:
 ```
-launchctl load ~/Library/LaunchAgents/com.user.procmon.plist
+node start.js
 ```
-
-Unload:
 ```
-launchctl unload ~/Library/LaunchAgents/com.user.procmon.plist
+node stop.js
 ```
